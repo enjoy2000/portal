@@ -33,8 +33,10 @@ $(document).ready(function(){
              arrayLang['jp'] = ['日本', 'ベトナム', 'インドネシア'];
              arrayLang['vn'] = ['Nhật Bản', 'Việt Nam', 'Indonesia'];
              arrayLang['id'] = ['Jepang', 'Vietnam', 'Indonesia'];
-             $('#languages-switcher a').on('click', function(){
-                    var lang = $(this).data('lang');
+             $('#languages-switcher a').on('click', function(e){
+                 e.preventDefault();
+
+                 var lang = $(this).data('lang');
                  newLang = arrayLang[lang];
                  $('#main-content dl dt').each(function(index, value){
                     $(this).html(newLang[index]);
