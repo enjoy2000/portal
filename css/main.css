@@ -1,0 +1,88 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background: url('../img/bg.jpg') no-repeat transparent top;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+header .slogan{
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#languages-switcher{
+    position: absolute;
+    right: 3px;
+    top: 10px;
+}
+#languages-switcher button{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    text-shadow: none;
+}
+#languages-switcher ul{
+    background-color: transparent;
+    border-color: #fff;
+    min-width: 143px;
+}
+#languages-switcher ul li a{
+    color: #fff;
+}
+#languages-switcher ul li a:hover{
+    color: #262626;
+}
+#main-content{
+    margin-top: 20%;
+}
+#main-content dl{
+    margin-bottom: 0;
+}
+#main-content dl dt{
+    text-align: left;
+    float: left;
+    width: 120px;
+}
+#main-content dl i.fa{
+    display: none;
+}
+#main-content .item{
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.60);
+}
+#main-content .item+.item{
+    margin-top: 2px;
+}
+#main-content .item a{
+    display: block;
+    font-size: 20px;
+    color: #353dd4;
+    -webkit-transition: all 200ms; /* For Safari 3.1 to 6.0 */
+    transition: all 200ms;
+    text-decoration: none;
+}
+#main-content .item a:hover{
+    font-size: 24px;
+}
+#man{
+    position: absolute;
+    top: 110px;
+    z-index: 2;
+    right: -130px;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    width: 100%;
+}
+
+
+
+
+
+
