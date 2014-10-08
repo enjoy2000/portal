@@ -7,6 +7,9 @@ body{
     background: url('../img/bg.jpg') no-repeat transparent top;
     background-size: cover;
     -webkit-background-size: cover;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
 }
 header .slogan{
     color: #fff;
@@ -72,7 +75,7 @@ header .slogan{
     position: absolute;
     top: 110px;
     z-index: 2;
-    right: -130px;
+    right: -70px;
 }
 footer{
     position: absolute;

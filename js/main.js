@@ -11,8 +11,7 @@ $(document).ready(function(){
 
                  // set full screen for body
                  $('body').width(winWidth)
-                     .height(winHeight)
-                     .css('overflow','hidden');
+                     .height(winHeight);
              });
              $(window).trigger('resize');
          },
