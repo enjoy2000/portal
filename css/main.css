@@ -90,7 +90,6 @@ footer{
 @media (max-width: 767px){
     .logo img{
         margin: 0;
-        margin-top: 10px
     }
     #main-content .item a{
         margin-left: 0;
@@ -98,18 +97,25 @@ footer{
     #main-content{
         margin-top: 0;
     }
+}
+@media (max-width: 450px){
+
+    #main-content .item i.fa{
+        display: none!important;
+    }
+    #main-content .item a{
+        font-size: 16px;
+    }
+    #main-content .item a:hover{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
     #languages-switcher{
         right: 3px;
         top: 0;
     }
-}
-@media (max-width: 450px){
-
-    #main-content .item a{
-        font-size: 18px;
-    }
-    #main-content .item a:hover{
-        font-size: 18px;
+    .logo img{
+        margin-top: 10px
     }
 }
 @media (min-width: 1200px){
